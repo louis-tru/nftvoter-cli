@@ -24,6 +24,6 @@ dev: config
 config:
 	@$(call cfg,$(ENV))
 
-pull:
+sync:
 	git pull
 	git submodule update --init --recursive
