@@ -1,0 +1,7 @@
+[submodule "webpkit"]
+	path = deps/webpkit
+	url = https://gitlab.com/louis-tru/webpkit.git
+
+[submodule "web3-tx"]
+	path = deps/web3-tx
+	url = https://gitlab.com/louis-tru/web3-tx.git

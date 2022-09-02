@@ -1,0 +1,161 @@
+
+.details {
+	display: flex;
+	padding-top: 145px;
+	/* width: 1116px; */
+	margin: auto;
+	justify-content: center;
+}
+
+.details .empty {
+	
+}
+
+.details .left {
+	width: 440px;
+	height: 440px;
+	margin-right: 50px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+.details .left * {
+	width: 100%;
+}
+
+.details .right {
+	min-width: 500px;
+	max-width: 600px;
+}
+
+.details .txt1 {
+	font-size: 24px;
+	color: #000;
+	line-height: 34px;
+	padding-bottom: 5px;
+}
+
+.details .txt2 {
+	font-size: 24px;
+	color: #117E52;
+	line-height: 63px;
+}
+
+.details .line {
+	width: 330px;
+	height: 1px;
+	background-color: #000;
+}
+
+.details .txt3 {
+	padding-top: 21px;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.details .txt4 {
+	padding-top: 11px;
+	display: flex;
+}
+
+.details .txt4 div {
+	height: 17px;
+	padding-right: 15px;
+	font-size: 10px;
+	line-height: 17px;
+	border-right: solid #000 1px;
+	display: flex;
+	align-items: center;
+	margin-right: 13px;
+}
+
+.details .txt4 div::before {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: #000;
+	margin-right: 10px;
+	border-radius: 12px;
+}
+
+.details .txt4 div:last-child {
+	border-right: none;
+}
+
+.details .txt7 {
+	padding-top: 25px;
+	font-size: 14px;
+	line-height: 13px;
+}
+
+.details .txt6_no_data {
+	height: 210px;
+}
+
+.details .txt5 {
+	padding-top: 28px;
+	/* padding-bottom: 28px; */
+	font-size: 14px;
+	line-height: 14px;
+	display: flex;
+}
+
+.details .txt5 div {
+	/* margin-right: 28px; */
+	color: #787878;
+	width: 200px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.details .txt5 span {
+	color: #000;
+}
+
+.details .txt6 {
+	padding-top: 28px;
+	font-size: 14px;
+	line-height: 14px;
+	display: flex;
+}
+
+.details .txt6 div {
+	/* margin-right: 50px; */
+	/* width: 200px; */
+}
+
+.details .txt6 div > span {
+	width: 125px;
+	display: inline-block;
+	color: #787878;
+}
+
+.details .box1 {
+	margin-top: 40px;
+	display: flex;
+}
+
+.details .box1 .btn {
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	border: solid #000 1px;
+	border-radius: 5px;
+	margin-right: 14px;
+	cursor: pointer;
+}
+
+.details .box1 .btn:hover {
+	color: #fff;
+	background-color: #000;
+}
+
+.details .box1 .btn:active {
+	/* color: #fff;
+	background-color: #444; */
+}

@@ -1,0 +1,29 @@
+
+.sell {
+
+	margin: 60px auto;
+
+	width: 610px;
+	
+	.panel {
+		// text-align: center;
+		border-top: solid 1px #aaa;
+		padding-bottom: 10px;
+
+		.txt {
+			display: flex;
+			align-items: center;
+			padding: 10px;
+			padding-left: 0;
+			font-weight: bold;
+			h3 {
+				color: #f00;
+				margin: 0;
+			}
+		}
+		.right {
+			text-align: right;
+		}
+	}
+
+}
