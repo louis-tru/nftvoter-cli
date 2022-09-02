@@ -9,3 +9,4 @@ nohup.out
 var
 test/tmp
 deploy.log
+yarn.lock
